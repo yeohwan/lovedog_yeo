@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="column">
-        <div class="message is-primary">
+        <div class="message is-danger">
           <div class="message-header">
             <p>오늘의 개 사진</p>
           </div>
@@ -40,7 +40,7 @@
      <div class="box">
       <h1 class="title">보고 싶은 개 정보를 누르세요.</h1>
       <span v-for="dog in dogs" v-bind:key="dog">
-        <a href="#" class="button is-success is-primary">
+        <a href="#" class="button is-success is-danger">
           {{dog}}
         </a> &nbsp;
       </span>
